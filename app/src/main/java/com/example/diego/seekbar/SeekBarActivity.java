@@ -75,8 +75,7 @@ public class SeekBarActivity extends AppCompatActivity {
 
     public void syncronyzingSeek(){
         value = bar.getProgress();
-       // this.seekTXT.setText(value);
-
+      
         this.seekTXT.setText(percentFormat.format(value/100));
     }
 
